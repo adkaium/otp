@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+}
+.otp_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-box-class{
+    display: flex;
+    
+}
+.input-box-class>input{
+    width: 40px;
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.valid-otp{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px;
+    color:green;
+}
+.invalid-otp{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    color : red; 
+}
